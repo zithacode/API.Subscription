@@ -42,7 +42,6 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
-builder.Services.AddControllers();
 //register this dbcontext options.
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
