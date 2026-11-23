@@ -1,0 +1,6 @@
+@SubWatch.Api_HostAddress = http://localhost:5218
+
+GET {{SubWatch.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
